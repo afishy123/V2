@@ -1,0 +1,20 @@
+name,mechanism,driven_gene,driven_gene_TSS_hg38,strand,regulatory_element,element_coords_hg38,fusion_5p_gene,fusion_3p_gene,breakpoint_5p,breakpoint_3p,breakpoint_assembly,structural_event,cell_context,alphagenome_ontology
+GATA2-MECOM,enhancer_hijacking,EVI1 (MECOM),chr3:169146305,-,G2DHE (GATA2 distal enhancer),chr3:128603548-128604548,,,,,,inv(3)(q21q26)/t(3;3)(q21;q26),"K562 (GATA2+, EVI1-silent)",EFO:0002067
+TCR-TAL1,enhancer_hijacking (TCR translocation),TAL1,chr1:47232335,-,TCRδ (Eδ) enhancer,chr14:22460450-22460810,,,,,,t(1;14)(p32;q11),CD4 T-cell (TAL1-silent),CL:0000624
+ETV6-MNX1,enhancer_hijacking,MNX1,chr7:157010663,-,ETV6-region hematopoietic enhancer block,chr12:11798088-12011644,,,,,,t(7;12)(q36;p13) (interchromosomal),CD34+ CMP (MNX1-silent),CL:0001059
+MIPOL1-ETV1,enhancer_hijacking (translocation),ETV1,chr7:13989666,-,chr14q13 enhancer (MIPOL1-intronic; M2),chr14:37246515-37246652,,,,,,t(7;14)(p21;q13),LNCaP prostate adenoca,UBERON:0002367
+BCL11B,enhancer_hijacking / BETA amplification,BCL11B,chr14:99272197,-,BETA element / translocated CD34 super-enhancer,UNRESOLVED (~700-730 kb downstream),,,,,,BETA tandem amplification / translocations,CD34 / T-cell,CL:0001059
+IGF2,enhancer_hijacking (neo-TAD/boundary disruption),IGF2,chr11:2139389,-,colon super-enhancer (adjacent TAD),UNRESOLVED (Weischenfeldt suppl),,,,,,tandem duplication / TAD-boundary disruption,colon (HCT116/LoVo),UBERON:0001155
+TERT,enhancer_hijacking,TERT,chr5:1295183,-,relocated super-enhancer (adrenergic CRC),UNRESOLVED (~50 kb upstream),,,,,,SV / chromothripsis at 5p15.33,neuroblastoma/adrenal (SK-N-SH),EFO:0000621
+GFI1B,enhancer_hijacking,GFI1B (also GFI1),chr9:132945531,+,relocated super-enhancer,UNRESOLVED (case-specific),,,,,,SV (9q34),medulloblastoma (poorly covered),(none good; cerebellum proxy)
+EGFR-SEPT14,kinase_fusion (promoter_donation),SEPT14 (3') / EGFR kinase,,,EGFR promoter (donated),,EGFR,SEPTIN14,chr7:55268106:+,chr7:55863785:-,hg19,intrachromosomal del/fusion (~596 kb),brain/GBM,UBERON:0000955
+TMPRSS2-ERG,promoter_donation (fusion),ERG,,,TMPRSS2 androgen promoter (donated),,TMPRSS2,ERG,chr21:42870045:-,chr21:39817544:-,hg19,interstitial deletion / fusion,prostate (LNCaP/VCaP),UBERON:0002367
+PTPRZ1-MET,promoter_donation (MET overexpression),MET,,,,,PTPRZ1,MET,chr7:121513611:+,chr7:116371721:+,hg19,intrachromosomal (ZM fusion),glioma/brain,UBERON:0000955
+EGFR-VOPP1,overexpression (promoter/regulatory),EGFR,,,,,EGFR,VOPP1,chr7:55087058:+,chr7:55588823:-,hg19,7p11 local,ESCA/glioma,
+TBC1D13-CDK4,overexpression (CDK4),CDK4,,,,,TBC1D13,CDK4,NOT AVAILABLE,NOT AVAILABLE,,,,
+BCR-ABL1,kinase_fusion,ABL1 kinase,,,,,BCR,ABL1,chr22:23654023:+,chr9:133729451:+,hg19,t(9;22)(q34;q11),blood/K562,EFO:0002067
+ABL1-NTRK2,kinase_fusion,NTRK2 kinase,,,,,ABL1,NTRK2,chr9:133710912:+,chr9:87338487:+,hg19,,,
+FGFR3-TACC3,kinase_fusion,FGFR3 kinase,,,,,FGFR3,TACC3,(FusionGDB),(FusionGDB),hg19,4p16 tandem dup,glioma,UBERON:0000955
+QSER1-DCDC1,regulatory? (11p13 PAX6 landscape),? (PAX6 region),,,,,QSER1,DCDC1,NOT AVAILABLE,NOT AVAILABLE,,11p13,,
+DCDC1-ELP4,regulatory? (PAX6 enhancers in ELP4),? PAX6 region,,,,,DCDC1,ELP4,NOT AVAILABLE,NOT AVAILABLE,,11p13,,
+IFITM3-IGF2R,uncertain (11p15/6q),?,,,,,IFITM3,IGF2R,NOT AVAILABLE,NOT AVAILABLE,,,,

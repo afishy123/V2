@@ -1,0 +1,21 @@
+# Modular enhancer-hijacking pipeline — install what the model(s) you'll use need.
+# Pinned to the versions this was built/tested with.
+
+# shared
+numpy==2.4.6
+pandas==2.3.3
+matplotlib==3.10.9
+ipykernel==7.3.0            # to run analysis.ipynb
+
+# --- AlphaGenome (API; needs ALPHA_GENOME_API_KEY in a .env at the repo root) ---
+alphagenome==0.6.1
+
+# --- Borzoi (local; CUDA GPU) ---
+torch==2.6.0                # +cu124 build in this env
+borzoi-pytorch==0.5.1       # weights pulled from HF on first use
+
+# --- Enformer (local; CUDA GPU) ---
+enformer-pytorch==0.8.11    # weights pulled from HF on first use; CAGE = expression proxy
+
+# Also needs the repo's local `fusionseq` package (sequence primitives + AlphaGenome/Borzoi calls).
+# Run notebooks from the repo root — analysis.ipynb chdir's there automatically.
